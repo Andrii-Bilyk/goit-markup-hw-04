@@ -283,6 +283,8 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item .title {
   font-weight: 500;
@@ -330,7 +332,7 @@ img {
 }
 
 .team-icon-icon {
-  fill: white;
+  fill: var(--cloud-color);
 }
 
 /* Customers section */
@@ -451,9 +453,11 @@ img {
   background-color: #31d0aa;
 }
 .social-icon-icon {
-  fill: white;
+  fill: var(--cloud-color);
 }
+
 /* Portfolio */
+
 .directions {
   padding: 96px 0 120px 0;
 }
@@ -470,6 +474,8 @@ img {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn-portfolio:hover,
@@ -494,6 +500,13 @@ img {
 .directions-item {
   width: calc((100% - 48px) / 3);
 }
+
+.directions-link {
+  display: block;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .directions-wrapper {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
